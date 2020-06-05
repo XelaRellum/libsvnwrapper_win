@@ -1,0 +1,89 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-x64\libsvn_diff_1.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libsvn_diff-1.dll
+
+    00000000 characteristics
+    5CED1F5B time date stamp Tue May 28 13:45:31 2019
+        0.00 version
+           1 ordinal base
+          64 number of functions
+          64 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00010580 svn_diff__display_prop_diffs
+          2    1 0000DCD0 svn_diff__source_create
+          3    2 0000FA90 svn_diff__tree_processor_copy_as_changed_create
+          4    3 0000F900 svn_diff__tree_processor_create
+          5    4 0000FB50 svn_diff__tree_processor_filter_create
+          6    5 0000FC40 svn_diff__tree_processor_reverse_create
+          7    6 0000F9C0 svn_diff__tree_processor_tee_create
+          8    7 0000FFE0 svn_diff__unidiff_write_header
+          9    8 0000A770 svn_diff_close_patch_file
+         10    9 00010550 svn_diff_contains_conflicts
+         11    A 00010520 svn_diff_contains_diffs
+         12    B 0000A2C0 svn_diff_diff
+         13    C 0000A200 svn_diff_diff3
+         14    D 00010D20 svn_diff_diff3_2
+         15    E 0000A140 svn_diff_diff4
+         16    F 000098B0 svn_diff_diff4_2
+         17   10 00009640 svn_diff_diff_2
+         18   11 0000A4A0 svn_diff_file_diff
+         19   12 0000A5A0 svn_diff_file_diff3
+         20   13 00007EA0 svn_diff_file_diff3_2
+         21   14 0000A510 svn_diff_file_diff4
+         22   15 00007DC0 svn_diff_file_diff4_2
+         23   16 00006D20 svn_diff_file_diff_2
+         24   17 000050A0 svn_diff_file_options_create
+         25   18 00005A30 svn_diff_file_options_parse
+         26   19 0000A400 svn_diff_file_output_merge
+         27   1A 0000A380 svn_diff_file_output_merge2
+         28   1B 000064A0 svn_diff_file_output_merge3
+         29   1C 0000A710 svn_diff_file_output_unified
+         30   1D 0000A6A0 svn_diff_file_output_unified2
+         31   1E 0000A630 svn_diff_file_output_unified3
+         32   1F 00008560 svn_diff_file_output_unified4
+         33   20 0000D630 svn_diff_get_binary_diff_original_stream
+         34   21 0000D580 svn_diff_get_binary_diff_result_stream
+         35   22 0000C960 svn_diff_hunk__create_adds_single_line
+         36   23 0000C770 svn_diff_hunk__create_deletes_single_line
+         37   24 0000B5C0 svn_diff_hunk__get_fuzz_penalty
+         38   25 0000B5F0 svn_diff_hunk_get_leading_context
+         39   26 0000B600 svn_diff_hunk_get_modified_length
+         40   27 0000B620 svn_diff_hunk_get_modified_start
+         41   28 0000B640 svn_diff_hunk_get_original_length
+         42   29 0000B660 svn_diff_hunk_get_original_start
+         43   2A 0000B5E0 svn_diff_hunk_get_trailing_context
+         44   2B 0000AFB0 svn_diff_hunk_readline_diff_text
+         45   2C 0000C2B0 svn_diff_hunk_readline_modified_text
+         46   2D 0000C340 svn_diff_hunk_readline_original_text
+         47   2E 0000B6E0 svn_diff_hunk_reset_diff_text
+         48   2F 0000B680 svn_diff_hunk_reset_modified_text
+         49   30 0000B6B0 svn_diff_hunk_reset_original_text
+         50   31 000046C0 svn_diff_mem_string_diff
+         51   32 00004980 svn_diff_mem_string_diff3
+         52   33 00004850 svn_diff_mem_string_diff4
+         53   34 0000A0A0 svn_diff_mem_string_output_merge
+         54   35 0000A020 svn_diff_mem_string_output_merge2
+         55   36 00003950 svn_diff_mem_string_output_merge3
+         56   37 00009FB0 svn_diff_mem_string_output_unified
+         57   38 00009F30 svn_diff_mem_string_output_unified2
+         58   39 00003F10 svn_diff_mem_string_output_unified3
+         59   3A 0000AA50 svn_diff_open_patch_file
+         60   3B 00009D80 svn_diff_output
+         61   3C 000103F0 svn_diff_output2
+         62   3D 00002A90 svn_diff_output_binary
+         63   3E 0000D8B0 svn_diff_parse_next_patch
+         64   3F 0000FCF0 svn_diff_version
+
+  Summary
+
+        2000 .data
+        1000 .pdata
+        4000 .rdata
+        1000 .reloc
+        3000 .rsrc
+       11000 .text

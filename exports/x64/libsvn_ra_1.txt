@@ -1,0 +1,100 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-x64\libsvn_ra_1.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libsvn_ra-1.dll
+
+    00000000 characteristics
+    5CED1F94 time date stamp Tue May 28 13:46:28 2019
+        0.00 version
+           1 ordinal base
+          75 number of functions
+          75 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00019CB0 svn_ra__assert_capable_server
+          2    1 00019850 svn_ra__assert_mergeinfo_capable_server
+          3    2 00018960 svn_ra__dup_session
+          4    3 00017950 svn_ra__get_commit_ev2
+          5    4 00019950 svn_ra__get_operational_lock
+          6    5 00016500 svn_ra__register_editor_shim_callbacks
+          7    6 00019720 svn_ra__release_operational_lock
+          8    7 00016520 svn_ra__replay_ev2
+          9    8 00018C30 svn_ra__replay_range_ev2
+         10    9 00015F60 svn_ra_change_rev_prop
+         11    A 00017150 svn_ra_change_rev_prop2
+         12    B 00016A20 svn_ra_check_path
+         13    C 00017470 svn_ra_create_callbacks
+         14    D 000164C0 svn_ra_dav_init
+         15    E 00015D90 svn_ra_do_diff
+         16    F 00015A70 svn_ra_do_diff2
+         17   10 00016AB0 svn_ra_do_diff3
+         18   11 00015710 svn_ra_do_status
+         19   12 00016BB0 svn_ra_do_status2
+         20   13 00015810 svn_ra_do_switch
+         21   14 00015CA0 svn_ra_do_switch2
+         22   15 00016C80 svn_ra_do_switch3
+         23   16 00015950 svn_ra_do_update
+         24   17 00015D20 svn_ra_do_update2
+         25   18 00016D90 svn_ra_do_update3
+         26   19 00015FF0 svn_ra_get_commit_editor
+         27   1A 00015E90 svn_ra_get_commit_editor2
+         28   1B 00016FF0 svn_ra_get_commit_editor3
+         29   1C 00017240 svn_ra_get_dated_revision
+         30   1D 00018AB0 svn_ra_get_deleted_rev
+         31   1E 00015670 svn_ra_get_dir
+         32   1F 00016E90 svn_ra_get_dir2
+         33   20 00016F50 svn_ra_get_file
+         34   21 00016310 svn_ra_get_file_revs
+         35   22 00018D00 svn_ra_get_file_revs2
+         36   23 00017A80 svn_ra_get_inherited_props
+         37   24 00017250 svn_ra_get_latest_revnum
+         38   25 00018E50 svn_ra_get_location_segments
+         39   26 00018F60 svn_ra_get_locations
+         40   27 000166C0 svn_ra_get_lock
+         41   28 00017FB0 svn_ra_get_locks
+         42   29 000165F0 svn_ra_get_locks2
+         43   2A 00016120 svn_ra_get_log
+         44   2B 000185E0 svn_ra_get_log2
+         45   2C 000187C0 svn_ra_get_mergeinfo
+         46   2D 00017260 svn_ra_get_path_relative_to_root
+         47   2E 00017300 svn_ra_get_path_relative_to_session
+         48   2F 00017630 svn_ra_get_ra_library
+         49   30 00016940 svn_ra_get_repos_root
+         50   31 00016950 svn_ra_get_repos_root2
+         51   32 000173A0 svn_ra_get_session_url
+         52   33 000169B0 svn_ra_get_uuid
+         53   34 000169C0 svn_ra_get_uuid2
+         54   35 00016510 svn_ra_has_capability
+         55   36 000164E0 svn_ra_init_ra_libs
+         56   37 000174C0 svn_ra_initialize
+         57   38 000194A0 svn_ra_list
+         58   39 00051A40 svn_ra_local_init
+         59   3A 00016810 svn_ra_lock
+         60   3B 000163E0 svn_ra_open
+         61   3C 000162D0 svn_ra_open2
+         62   3D 000160B0 svn_ra_open3
+         63   3E 00018040 svn_ra_open4
+         64   3F 00017770 svn_ra_print_modules
+         65   40 00018470 svn_ra_print_ra_libraries
+         66   41 000173B0 svn_ra_reparent
+         67   42 00016550 svn_ra_replay
+         68   43 000184B0 svn_ra_replay_range
+         69   44 00017050 svn_ra_rev_prop
+         70   45 000170D0 svn_ra_rev_proplist
+         71   46 0004D660 svn_ra_serf_init
+         72   47 00019060 svn_ra_stat
+         73   48 0002AF10 svn_ra_svn_init
+         74   49 00016740 svn_ra_unlock
+         75   4A 000164F0 svn_ra_version
+
+  Summary
+
+        2000 .data
+        5000 .pdata
+       1F000 .rdata
+        2000 .reloc
+        3000 .rsrc
+       52000 .text

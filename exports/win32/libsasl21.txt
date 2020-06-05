@@ -1,0 +1,103 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-win32\libsasl21.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libsasl21.dll
+
+    00000000 characteristics
+    5CED1ABC time date stamp Tue May 28 13:25:48 2019
+        0.00 version
+           1 ordinal base
+          79 number of functions
+          79 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000196A0 _sasl_check_db
+          2    1 000197D0 _sasldb_getkeyhandle
+          3    2 00019850 _sasldb_getnextkey
+          4    3 00018F20 _sasldb_listusers
+          5    4 00018CB0 _sasldb_parse_key
+          6    5 00019960 _sasldb_releasekeyhandle
+          7    6 00001FC0 auxprop_plugin_info
+          8    7 0000A340 getopt
+          9    8 0000A4B0 getpass
+         10    9 000199A0 getsubopt
+         11    A 000228D8 optarg
+         12    B 00022290 opterr
+         13    C 0002220C optind
+         14    D 00001200 prop_clear
+         15    E 000010D0 prop_dispose
+         16    F 00002150 prop_dup
+         17   10 000012D0 prop_erase
+         18   11 00001390 prop_format
+         19   12 00001120 prop_get
+         20   13 00001130 prop_getnames
+         21   14 00002100 prop_new
+         22   15 00002230 prop_request
+         23   16 000014B0 prop_set
+         24   17 00001810 prop_setvals
+         25   18 00001890 sasl_auxprop_add_plugin
+         26   19 00001870 sasl_auxprop_getctx
+         27   1A 000023D0 sasl_auxprop_request
+         28   1B 00001CE0 sasl_auxprop_store
+         29   1C 00002880 sasl_canonuser_add_plugin
+         30   1D 0000C3C0 sasl_checkapop
+         31   1E 0000C140 sasl_checkpass
+         32   1F 0000A130 sasl_churn
+         33   20 00003240 sasl_client_add_plugin
+         34   21 000030C0 sasl_client_done
+         35   22 00003430 sasl_client_init
+         36   23 00003650 sasl_client_new
+         37   24 00004350 sasl_client_plugin_info
+         38   25 00004480 sasl_client_start
+         39   26 00003C70 sasl_client_step
+         40   27 000088C0 sasl_config_done
+         41   28 000085A0 sasl_config_init
+         42   29 000057E0 sasl_decode
+         43   2A 00009D40 sasl_decode64
+         44   2B 00005980 sasl_dispose
+         45   2C 00006FC0 sasl_done
+         46   2D 000081D0 sasl_encode
+         47   2E 00009C10 sasl_encode64
+         48   2F 00006BB0 sasl_encodev
+         49   30 0000A180 sasl_erasebuffer
+         50   31 00007A80 sasl_errdetail
+         51   32 00005AD0 sasl_errstring
+         52   33 00007010 sasl_getprop
+         53   34 00006740 sasl_global_listmech
+         54   35 00022798 sasl_global_utils
+         55   36 000061A0 sasl_idle
+         56   37 00006750 sasl_listmech
+         57   38 0000A540 sasl_mkchal
+         58   39 0000A0D0 sasl_rand
+         59   3A 00009FE0 sasl_randcreate
+         60   3B 0000A010 sasl_randfree
+         61   3C 0000A020 sasl_randseed
+         62   3D 0000AC40 sasl_server_add_plugin
+         63   3E 0000ADF0 sasl_server_done
+         64   3F 0000C820 sasl_server_init
+         65   40 0000CA00 sasl_server_new
+         66   41 0000C680 sasl_server_plugin_info
+         67   42 0000CF50 sasl_server_start
+         68   43 0000B810 sasl_server_step
+         69   44 00005940 sasl_set_alloc
+         70   45 00005530 sasl_set_mutex
+         71   46 00006B10 sasl_set_path
+         72   47 0000D320 sasl_seterror
+         73   48 0000A650 sasl_setpass
+         74   49 000073B0 sasl_setprop
+         75   4A 0000A1A0 sasl_strlower
+         76   4B 0000C1E0 sasl_user_exists
+         77   4C 00009F40 sasl_utf8verify
+         78   4D 000055D0 sasl_version
+         79   4E 000055F0 sasl_version_info
+
+  Summary
+
+        2000 .data
+        6000 .rdata
+        2000 .reloc
+        1000 .rsrc
+       1B000 .text

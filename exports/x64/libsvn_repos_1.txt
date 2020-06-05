@@ -1,0 +1,193 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-x64\libsvn_repos_1.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libsvn_repos-1.dll
+
+    00000000 characteristics
+    5CED1F90 time date stamp Tue May 28 13:46:24 2019
+        0.00 version
+           1 ordinal base
+         168 number of functions
+         168 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000296C0 svn_authz__acl_applies_to_repo
+          2    1 00027120 svn_authz__compare_paths
+          3    2 000276F0 svn_authz__compare_rules
+          4    3 000297C0 svn_authz__get_acl_access
+          5    4 00029950 svn_authz__get_global_rights
+          6    5 00029440 svn_authz__parse
+          7    6 000271E0 svn_authz__reverse_string
+          8    7 00025F00 svn_repos__adjust_mergeinfo_property
+          9    8 000249B0 svn_repos__config_pool_create
+         10    9 00024B30 svn_repos__config_pool_get
+         11    A 000211B0 svn_repos__dump_headers
+         12    B 00021190 svn_repos__dump_magic_header_record
+         13    C 00021BD0 svn_repos__dump_node_record
+         14    D 00022460 svn_repos__dump_revision_record
+         15    E 00021150 svn_repos__dump_uuid_header_record
+         16    F 000212B0 svn_repos__dumpfile_header_push
+         17   10 00021250 svn_repos__dumpfile_header_pushf
+         18   11 00021310 svn_repos__dumpfile_headers_create
+         19   12 0001E770 svn_repos__fs_type
+         20   13 0001D9B0 svn_repos__get_commit_ev2
+         21   14 0001BDD0 svn_repos__get_dump_editor
+         22   15 00019F40 svn_repos__get_logs_compat
+         23   16 00018140 svn_repos__normalize_prop
+         24   17 0001C390 svn_repos__post_commit_error_str
+         25   18 00017630 svn_repos__replay_ev2
+         26   19 00018210 svn_repos__validate_prop
+         27   1A 00012F60 svn_repos_abort_report
+         28   1B 00012370 svn_repos_authz_check_access
+         29   1C 000114C0 svn_repos_authz_initialize
+         30   1D 0000F920 svn_repos_authz_parse
+         31   1E 000124A0 svn_repos_authz_parse2
+         32   1F 00010450 svn_repos_authz_read
+         33   20 000100A0 svn_repos_authz_read2
+         34   21 0000FD70 svn_repos_authz_read3
+         35   22 00012CD0 svn_repos_authz_read4
+         36   23 0000E410 svn_repos_begin_report
+         37   24 0000E360 svn_repos_begin_report2
+         38   25 00012DA0 svn_repos_begin_report3
+         39   26 0001F1C0 svn_repos_capabilities
+         40   27 0000CA20 svn_repos_check_revision_access
+         41   28 0001E710 svn_repos_conf_dir
+         42   29 000208B0 svn_repos_create
+         43   2A 00009F40 svn_repos_dated_revision
+         44   2B 0001E730 svn_repos_db_env
+         45   2C 0001E6B0 svn_repos_db_lockfile
+         46   2D 0001FBE0 svn_repos_db_logfiles
+         47   2E 0001E690 svn_repos_db_logs_lockfile
+         48   2F 0001E010 svn_repos_delete
+         49   30 00013700 svn_repos_delete_path
+         50   31 00008930 svn_repos_deleted_rev
+         51   32 0000EAA0 svn_repos_dir_delta
+         52   33 00007B10 svn_repos_dir_delta2
+         53   34 000103B0 svn_repos_dump_fs
+         54   35 00010310 svn_repos_dump_fs2
+         55   36 00010010 svn_repos_dump_fs3
+         56   37 00023F60 svn_repos_dump_fs4
+         57   38 0001EB70 svn_repos_find_root_path
+         58   39 000158E0 svn_repos_finish_report
+         59   3A 00020660 svn_repos_freeze
+         60   3B 0001DF70 svn_repos_fs
+         61   3C 00019C90 svn_repos_fs_begin_txn_for_commit
+         62   3D 000195C0 svn_repos_fs_begin_txn_for_commit2
+         63   3E 0000DBF0 svn_repos_fs_begin_txn_for_update
+         64   3F 00018AC0 svn_repos_fs_change_node_prop
+         65   40 0000F420 svn_repos_fs_change_rev_prop
+         66   41 0000EC80 svn_repos_fs_change_rev_prop2
+         67   42 0000E9F0 svn_repos_fs_change_rev_prop3
+         68   43 00019270 svn_repos_fs_change_rev_prop4
+         69   44 00019540 svn_repos_fs_change_txn_prop
+         70   45 000188F0 svn_repos_fs_change_txn_props
+         71   46 000197A0 svn_repos_fs_commit_txn
+         72   47 00017A70 svn_repos_fs_get_inherited_props
+         73   48 0000E4D0 svn_repos_fs_get_locks
+         74   49 00018400 svn_repos_fs_get_locks2
+         75   4A 0000E2A0 svn_repos_fs_get_mergeinfo
+         76   4B 00017D20 svn_repos_fs_get_mergeinfo2
+         77   4C 00019B70 svn_repos_fs_lock
+         78   4D 00018ED0 svn_repos_fs_lock_many
+         79   4E 0000E5B0 svn_repos_fs_pack
+         80   4F 000183A0 svn_repos_fs_pack2
+         81   50 00018660 svn_repos_fs_revision_prop
+         82   51 00018530 svn_repos_fs_revision_proplist
+         83   52 0001DF50 svn_repos_fs_type
+         84   53 00019A90 svn_repos_fs_unlock
+         85   54 00018B70 svn_repos_fs_unlock_many
+         86   55 0000FD00 svn_repos_get_commit_editor
+         87   56 0000F8A0 svn_repos_get_commit_editor2
+         88   57 0000F530 svn_repos_get_commit_editor3
+         89   58 0000F020 svn_repos_get_commit_editor4
+         90   59 0001DBE0 svn_repos_get_commit_editor5
+         91   5A 00008EC0 svn_repos_get_committed_info
+         92   5B 0000E930 svn_repos_get_file_revs
+         93   5C 0000A530 svn_repos_get_file_revs2
+         94   5D 00010140 svn_repos_get_fs_build_parser
+         95   5E 0000FDC0 svn_repos_get_fs_build_parser2
+         96   5F 0000F9B0 svn_repos_get_fs_build_parser3
+         97   60 0000F620 svn_repos_get_fs_build_parser4
+         98   61 0000F140 svn_repos_get_fs_build_parser5
+         99   62 00026D10 svn_repos_get_fs_build_parser6
+        100   63 0000FC10 svn_repos_get_logs
+        101   64 0000FC80 svn_repos_get_logs2
+        102   65 0000F760 svn_repos_get_logs3
+        103   66 0000F390 svn_repos_get_logs4
+        104   67 0000D720 svn_repos_get_logs5
+        105   68 0001E9C0 svn_repos_has_capability
+        106   69 0000E160 svn_repos_history
+        107   6A 00008C10 svn_repos_history2
+        108   6B 0001E670 svn_repos_hook_dir
+        109   6C 0001E380 svn_repos_hooks_setenv
+        110   6D 0000F460 svn_repos_hotcopy
+        111   6E 0000EEF0 svn_repos_hotcopy2
+        112   6F 0001F820 svn_repos_hotcopy3
+        113   70 0001DF90 svn_repos_info_format
+        114   71 0000EB40 svn_repos_link_path
+        115   72 0000E620 svn_repos_link_path2
+        116   73 000137A0 svn_repos_link_path3
+        117   74 00006970 svn_repos_list
+        118   75 000104D0 svn_repos_load_fs
+        119   76 00010220 svn_repos_load_fs2
+        120   77 0000FE30 svn_repos_load_fs3
+        121   78 0000FB70 svn_repos_load_fs4
+        122   79 0000F6C0 svn_repos_load_fs5
+        123   7A 00027020 svn_repos_load_fs6
+        124   7B 00026F60 svn_repos_load_fs_revprops
+        125   7C 0001E6D0 svn_repos_lock_dir
+        126   7D 0000B8E0 svn_repos_log_entry_create
+        127   7E 0000B880 svn_repos_log_entry_dup
+        128   7F 00006080 svn_repos_node_editor
+        129   80 000058D0 svn_repos_node_from_baton
+        130   81 000095E0 svn_repos_node_location_segments
+        131   82 00005880 svn_repos_notify_create
+        132   83 0000F4F0 svn_repos_open
+        133   84 0000EFE0 svn_repos_open2
+        134   85 00020360 svn_repos_open3
+        135   86 0000EBA0 svn_repos_parse_dumpstream
+        136   87 0000E8C0 svn_repos_parse_dumpstream2
+        137   88 00005220 svn_repos_parse_dumpstream3
+        138   89 0001E750 svn_repos_path
+        139   8A 0000B980 svn_repos_path_change_create
+        140   8B 0000B910 svn_repos_path_change_dup
+        141   8C 0001E590 svn_repos_post_commit_hook
+        142   8D 0001E5D0 svn_repos_post_lock_hook
+        143   8E 0001E550 svn_repos_post_revprop_change_hook
+        144   8F 0001E5B0 svn_repos_post_unlock_hook
+        145   90 0001E630 svn_repos_pre_commit_hook
+        146   91 0001E610 svn_repos_pre_lock_hook
+        147   92 0001E570 svn_repos_pre_revprop_change_hook
+        148   93 0001E5F0 svn_repos_pre_unlock_hook
+        149   94 0000F860 svn_repos_recover
+        150   95 0000F4A0 svn_repos_recover2
+        151   96 0000EF80 svn_repos_recover3
+        152   97 0001FF60 svn_repos_recover4
+        153   98 0001DEA0 svn_repos_remember_client_capabilities
+        154   99 0000EA60 svn_repos_replay
+        155   9A 00017860 svn_repos_replay2
+        156   9B 0000EB70 svn_repos_set_path
+        157   9C 0000E790 svn_repos_set_path2
+        158   9D 00013810 svn_repos_set_path3
+        159   9E 0001E650 svn_repos_start_commit_hook
+        160   9F 000064A0 svn_repos_stat
+        161   A0 0001E6F0 svn_repos_svnserve_conf
+        162   A1 00009AB0 svn_repos_trace_node_locations
+        163   A2 0000EF40 svn_repos_upgrade
+        164   A3 00020120 svn_repos_upgrade2
+        165   A4 00010550 svn_repos_verify_fs
+        166   A5 000102B0 svn_repos_verify_fs2
+        167   A6 00024650 svn_repos_verify_fs3
+        168   A7 0001DEB0 svn_repos_version
+
+  Summary
+
+        2000 .data
+        3000 .pdata
+       12000 .rdata
+        1000 .reloc
+        3000 .rsrc
+       29000 .text

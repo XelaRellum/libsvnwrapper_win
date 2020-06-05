@@ -1,0 +1,37 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-x64\libintl.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libintl.dll
+
+    00000000 characteristics
+    5CED1EF0 time date stamp Tue May 28 13:43:44 2019
+        0.00 version
+         401 ordinal base
+         109 number of functions
+          12 number of names
+
+    ordinal hint RVA      name
+
+        403    0 00002630 dcgettext
+        402    1 00002628 dgettext
+        401    2 00002620 gettext
+        509    3 000013BC libintl_bind_textdomain_codeset
+        507    4 0000139C libintl_bindtextdomain
+        503    5 000013DC libintl_dcgettext
+        502    6 000021C8 libintl_dgettext
+        508    7 000021D4 libintl_dngettext
+        505    8 00008CF8 libintl_fprintf
+        501    9 000025E0 libintl_gettext
+        504    A 00008D4C libintl_printf
+        506    B 00008E10 libintl_sprintf
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        5000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        9000 .text

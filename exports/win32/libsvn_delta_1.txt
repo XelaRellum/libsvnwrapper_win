@@ -1,0 +1,180 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-win32\libsvn_delta_1.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libsvn_delta-1.dll
+
+    00000000 characteristics
+    5CED1B0F time date stamp Tue May 28 13:27:11 2019
+        0.00 version
+           1 ordinal base
+         156 number of functions
+         156 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0000FD20 svn_branch__compat_delta_from_txn_for_commit
+          2    1 00010180 svn_branch__compat_delta_from_txn_for_update
+          3    2 00010770 svn_branch__compat_fetch
+          4    3 0000F6F0 svn_branch__compat_get_migration_editor
+          5    4 0000FFE0 svn_branch__compat_insert_shims
+          6    5 00011570 svn_branch__compat_txn_from_delta_for_commit
+          7    6 000116C0 svn_branch__compat_txn_from_delta_for_update
+          8    7 0000D560 svn_branch__el_rev_id_create
+          9    8 0000DE00 svn_branch__el_rev_id_dup
+         10    9 0000C6E0 svn_branch__find_nested_branch_element_by_relpath
+         11    A 0000D0C0 svn_branch__get_default_r0_metadata
+         12    B 0000E470 svn_branch__get_eid_by_path
+         13    C 0000D5C0 svn_branch__get_id
+         14    D 0000C3E0 svn_branch__get_immediate_subbranches
+         15    E 0000C550 svn_branch__get_outer_branch_and_eid
+         16    F 0000E510 svn_branch__get_path_by_eid
+         17   10 0000C9F0 svn_branch__get_root_rrpath
+         18   11 0000CC30 svn_branch__get_rrpath_by_eid
+         19   12 0000C4C0 svn_branch__get_subbranch_at_eid
+         20   13 0000C860 svn_branch__get_subtree
+         21   14 0000DD10 svn_branch__history_create
+         22   15 0000DDD0 svn_branch__history_create_empty
+         23   16 0000E700 svn_branch__history_dup
+         24   17 0000CE10 svn_branch__id_nest
+         25   18 0000CDB0 svn_branch__id_unnest
+         26   19 0000C2B0 svn_branch__instantiate_elements_r
+         27   1A 0000CCC0 svn_branch__nested_txn_create
+         28   1B 0000BD40 svn_branch__repos_add_revision
+         29   1C 0000BD60 svn_branch__repos_create
+         30   1D 0000BE50 svn_branch__repos_find_el_rev_by_id
+         31   1E 0000CB40 svn_branch__repos_find_el_rev_by_path_rev
+         32   1F 0000BDA0 svn_branch__repos_get_base_revision_root
+         33   20 0000BDC0 svn_branch__repos_get_branch_by_id
+         34   21 0000BD20 svn_branch__repos_get_revision
+         35   22 0000D4B0 svn_branch__rev_bid_create
+         36   23 0000D470 svn_branch__rev_bid_dup
+         37   24 0000D520 svn_branch__rev_bid_eid_create
+         38   25 0000D4E0 svn_branch__rev_bid_eid_dup
+         39   26 0000D420 svn_branch__rev_bid_equal
+         40   27 0000D590 svn_branch__root_eid
+         41   28 0000DBA0 svn_branch__state_alter_one
+         42   29 0000D1E0 svn_branch__state_copy_tree
+         43   2A 0000D0E0 svn_branch__state_create
+         44   2B 0000DB70 svn_branch__state_delete_one
+         45   2C 0000D230 svn_branch__state_get_element
+         46   2D 0000D250 svn_branch__state_get_elements
+         47   2E 0000D170 svn_branch__state_get_history
+         48   2F 0000D1C0 svn_branch__state_purge
+         49   30 0000DFC0 svn_branch__state_serialize
+         50   31 0000D210 svn_branch__state_set_element
+         51   32 0000D130 svn_branch__state_set_history
+         52   33 0000BF50 svn_branch__subtree_create
+         53   34 0000BF30 svn_branch__subtree_get_subbranch_at_eid
+         54   35 0000D8C0 svn_branch__txn_abort
+         55   36 0000D8E0 svn_branch__txn_complete
+         56   37 0000D870 svn_branch__txn_create
+         57   38 0000D9D0 svn_branch__txn_delete_branch
+         58   39 0000D940 svn_branch__txn_finalize_eids
+         59   3A 0000DE30 svn_branch__txn_get_branch_by_id
+         60   3B 0000D9F0 svn_branch__txn_get_branches
+         61   3C 0000D9B0 svn_branch__txn_get_num_new_eids
+         62   3D 0000D990 svn_branch__txn_new_eid
+         63   3E 0000D960 svn_branch__txn_open_branch
+         64   3F 0000F440 svn_branch__txn_parse
+         65   40 0000D900 svn_branch__txn_sequence_point
+         66   41 0000D920 svn_branch__txn_serialize
+         67   42 0000AFE0 svn_compat_wrap_file_rev_handler
+         68   43 0000BAC0 svn_delta__delta_from_editor
+         69   44 0000BB80 svn_delta__editor_from_delta
+         70   45 00009430 svn_delta__get_debug_editor
+         71   46 000087F0 svn_delta_default_editor
+         72   47 00008710 svn_delta_depth_filter_editor
+         73   48 00007FF0 svn_delta_get_cancellation_editor
+         74   49 00008820 svn_delta_noop_window_handler
+         75   4A 00007B30 svn_delta_path_driver
+         76   4B 00007AB0 svn_delta_path_driver2
+         77   4C 00007960 svn_delta_path_driver3
+         78   4D 000074D0 svn_delta_path_driver_finish
+         79   4E 00007380 svn_delta_path_driver_start
+         80   4F 000075F0 svn_delta_path_driver_step
+         81   50 00009560 svn_delta_shim_callbacks_default
+         82   51 00007370 svn_delta_version
+         83   52 00009540 svn_editor__insert_shims
+         84   53 000069B0 svn_editor_abort
+         85   54 00007050 svn_editor_add_absent
+         86   55 000072A0 svn_editor_add_directory
+         87   56 00007180 svn_editor_add_file
+         88   57 000070D0 svn_editor_add_symlink
+         89   58 00006FA0 svn_editor_alter_directory
+         90   59 00006E70 svn_editor_alter_file
+         91   5A 00006DC0 svn_editor_alter_symlink
+         92   5B 000069E0 svn_editor_complete
+         93   5C 00006C90 svn_editor_copy
+         94   5D 00006B90 svn_editor_create
+         95   5E 00006D40 svn_editor_delete
+         96   5F 00006B80 svn_editor_get_baton
+         97   60 00006BE0 svn_editor_move
+         98   61 00006AC0 svn_editor_setcb_abort
+         99   62 00006B40 svn_editor_setcb_add_absent
+        100   63 00006B70 svn_editor_setcb_add_directory
+        101   64 00006B60 svn_editor_setcb_add_file
+        102   65 00006B50 svn_editor_setcb_add_symlink
+        103   66 00006B30 svn_editor_setcb_alter_directory
+        104   67 00006B20 svn_editor_setcb_alter_file
+        105   68 00006B10 svn_editor_setcb_alter_symlink
+        106   69 00006AD0 svn_editor_setcb_complete
+        107   6A 00006AF0 svn_editor_setcb_copy
+        108   6B 00006B00 svn_editor_setcb_delete
+        109   6C 00006A30 svn_editor_setcb_many
+        110   6D 00006AE0 svn_editor_setcb_move
+        111   6E 000065E0 svn_eid__hash_get
+        112   6F 000065B0 svn_eid__hash_set
+        113   70 000064D0 svn_eid__hash_sort_compare_items_by_eid
+        114   71 00006530 svn_eid__hash_sorted_first
+        115   72 000064F0 svn_eid__hash_sorted_next
+        116   73 00006590 svn_eid__hash_this_key
+        117   74 00006820 svn_element__content_create
+        118   75 000067E0 svn_element__content_dup
+        119   76 00006760 svn_element__content_equal
+        120   77 000061D0 svn_element__payload_create_dir
+        121   78 00006140 svn_element__payload_create_file
+        122   79 00006240 svn_element__payload_create_ref
+        123   7A 000062A0 svn_element__payload_create_subbranch
+        124   7B 000060B0 svn_element__payload_create_symlink
+        125   7C 000063D0 svn_element__payload_dup
+        126   7D 000062E0 svn_element__payload_equal
+        127   7E 00006460 svn_element__payload_invariants
+        128   7F 00006060 svn_element__tree_create
+        129   80 00006740 svn_element__tree_get
+        130   81 00006930 svn_element__tree_get_path_by_eid
+        131   82 00006860 svn_element__tree_get_subtree_at_eid
+        132   83 00006600 svn_element__tree_purge_orphans
+        133   84 00006700 svn_element__tree_set
+        134   85 00005FD0 svn_txdelta
+        135   86 00005D30 svn_txdelta2
+        136   87 00003FD0 svn_txdelta__read_raw_window_len
+        137   88 00005840 svn_txdelta_apply
+        138   89 000053A0 svn_txdelta_apply_instructions
+        139   8A 00002FA0 svn_txdelta_compose_windows
+        140   8B 00005110 svn_txdelta_md5_digest
+        141   8C 00005130 svn_txdelta_next_window
+        142   8D 00004C40 svn_txdelta_parse_svndiff
+        143   8E 000045C0 svn_txdelta_read_svndiff_window
+        144   8F 00005DD0 svn_txdelta_run
+        145   90 00004D00 svn_txdelta_send_contents
+        146   91 00004DD0 svn_txdelta_send_stream
+        147   92 00004FA0 svn_txdelta_send_string
+        148   93 00005340 svn_txdelta_send_txstream
+        149   94 00004150 svn_txdelta_skip_svndiff_window
+        150   95 00005150 svn_txdelta_stream_create
+        151   96 00005CB0 svn_txdelta_target_push
+        152   97 00004BA0 svn_txdelta_to_svndiff
+        153   98 00004BF0 svn_txdelta_to_svndiff2
+        154   99 000044B0 svn_txdelta_to_svndiff3
+        155   9A 00004500 svn_txdelta_to_svndiff_stream
+        156   9B 000054B0 svn_txdelta_window_dup
+
+  Summary
+
+        1000 .data
+        4000 .rdata
+        2000 .reloc
+        3000 .rsrc
+       11000 .text

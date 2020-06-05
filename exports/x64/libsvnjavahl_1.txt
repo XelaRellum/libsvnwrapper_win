@@ -1,0 +1,236 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-x64\libsvnjavahl_1.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libsvnjavahl-1.dll
+
+    00000000 characteristics
+    5CED206D time date stamp Tue May 28 13:50:05 2019
+        0.00 version
+           1 ordinal base
+         211 number of functions
+         211 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00015D9C ??0_Mutex@std@@QEAA@W4_Uninitialized@1@@Z
+          2    1 00015DA0 ??4_Init_locks@std@@QEAAAEAV01@AEBV01@@Z
+          3    2 00020A60 ?Java_org_apache_subversion_javahl_remote_CommitEditor_abort@@YAXPEAUJNIEnv_@@PEAV_jobject@@1@Z
+          4    3 00034010 JNI_OnLoad
+          5    4 00033840 JNI_OnUnload
+          6    5 00030C00 Java_org_apache_subversion_javahl_NativeResources_initNativeLibrary
+          7    6 0002E1C0 Java_org_apache_subversion_javahl_SVNClient_add
+          8    7 00026E10 Java_org_apache_subversion_javahl_SVNClient_addToChangelist
+          9    8 00027330 Java_org_apache_subversion_javahl_SVNClient_blame
+         10    9 00023DD0 Java_org_apache_subversion_javahl_SVNClient_cancelOperation
+         11    A 0002EAE0 Java_org_apache_subversion_javahl_SVNClient_checkout
+         12    B 0002CC90 Java_org_apache_subversion_javahl_SVNClient_cleanup
+         13    C 0002D8A0 Java_org_apache_subversion_javahl_SVNClient_commit
+         14    D 000308B0 Java_org_apache_subversion_javahl_SVNClient_copy
+         15    E 000258B0 Java_org_apache_subversion_javahl_SVNClient_ctNative
+         16    F 000285B0 Java_org_apache_subversion_javahl_SVNClient_diffSummarize__Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Depth_2Ljava_util_Collection_2ZLorg_apache_subversion_javahl_callback_DiffSummaryCallback_2
+         17   10 00028210 Java_org_apache_subversion_javahl_SVNClient_diffSummarize__Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Depth_2Ljava_util_Collection_2ZLorg_apache_subversion_javahl_callback_DiffSummaryCallback_2
+         18   11 00030150 Java_org_apache_subversion_javahl_SVNClient_diff__Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Ljava_lang_String_2Ljava_io_OutputStream_2Lorg_apache_subversion_javahl_types_Depth_2Ljava_util_Collection_2ZZZZZZLorg_apache_subversion_javahl_types_DiffOptions_2
+         19   12 0002FC60 Java_org_apache_subversion_javahl_SVNClient_diff__Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Revision_2Ljava_lang_String_2Ljava_io_OutputStream_2Lorg_apache_subversion_javahl_types_Depth_2Ljava_util_Collection_2ZZZZZZLorg_apache_subversion_javahl_types_DiffOptions_2
+         20   13 00025230 Java_org_apache_subversion_javahl_SVNClient_dispose
+         21   14 0002C670 Java_org_apache_subversion_javahl_SVNClient_doExport
+         22   15 0002BEB0 Java_org_apache_subversion_javahl_SVNClient_doImport
+         23   16 0002C320 Java_org_apache_subversion_javahl_SVNClient_doSwitch
+         24   17 00024590 Java_org_apache_subversion_javahl_SVNClient_enableLogging
+         25   18 00025330 Java_org_apache_subversion_javahl_SVNClient_finalize
+         26   19 00024F80 Java_org_apache_subversion_javahl_SVNClient_getAdminDirectoryName
+         27   1A 000267D0 Java_org_apache_subversion_javahl_SVNClient_getChangelists
+         28   1B 00024120 Java_org_apache_subversion_javahl_SVNClient_getConfigDirectory
+         29   1C 00023EC0 Java_org_apache_subversion_javahl_SVNClient_getConfigEventHandler
+         30   1D 00024B80 Java_org_apache_subversion_javahl_SVNClient_getLastPath
+         31   1E 00028DF0 Java_org_apache_subversion_javahl_SVNClient_getMergeinfo
+         32   1F 000289A0 Java_org_apache_subversion_javahl_SVNClient_getMergeinfoLog
+         33   20 000250D0 Java_org_apache_subversion_javahl_SVNClient_getVersionExtended
+         34   21 00027BE0 Java_org_apache_subversion_javahl_SVNClient_getVersionInfo
+         35   22 00025E50 Java_org_apache_subversion_javahl_SVNClient_info
+         36   23 00024CF0 Java_org_apache_subversion_javahl_SVNClient_isAdminDirectory
+         37   24 0002F6E0 Java_org_apache_subversion_javahl_SVNClient_list
+         38   25 00026410 Java_org_apache_subversion_javahl_SVNClient_lock
+         39   26 0002EE20 Java_org_apache_subversion_javahl_SVNClient_logMessages
+         40   27 0002AE80 Java_org_apache_subversion_javahl_SVNClient_mergeReintegrate
+         41   28 0002B810 Java_org_apache_subversion_javahl_SVNClient_merge__Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Ljava_lang_String_2ZLorg_apache_subversion_javahl_types_Depth_2ZZZZZ
+         42   29 0002B150 Java_org_apache_subversion_javahl_SVNClient_merge__Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Ljava_util_List_2Ljava_lang_String_2ZLorg_apache_subversion_javahl_types_Depth_2ZZZZZ
+         43   2A 0002CEA0 Java_org_apache_subversion_javahl_SVNClient_mkdir
+         44   2B 0002D280 Java_org_apache_subversion_javahl_SVNClient_move
+         45   2C 0002FA20 Java_org_apache_subversion_javahl_SVNClient_nativeOpenRemoteSession
+         46   2D 00024780 Java_org_apache_subversion_javahl_SVNClient_password
+         47   2E 00025B30 Java_org_apache_subversion_javahl_SVNClient_patch
+         48   2F 00030670 Java_org_apache_subversion_javahl_SVNClient_properties__Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Depth_2Ljava_util_Collection_2Lorg_apache_subversion_javahl_callback_InheritedProplistCallback_2
+         49   30 00030790 Java_org_apache_subversion_javahl_SVNClient_properties__Ljava_lang_String_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Revision_2Lorg_apache_subversion_javahl_types_Depth_2Ljava_util_Collection_2Lorg_apache_subversion_javahl_callback_ProplistCallback_2
+         50   31 00029070 Java_org_apache_subversion_javahl_SVNClient_propertyGet
+         51   32 00029FF0 Java_org_apache_subversion_javahl_SVNClient_propertySetLocal
+         52   33 0002A690 Java_org_apache_subversion_javahl_SVNClient_propertySetRemote
+         53   34 00027650 Java_org_apache_subversion_javahl_SVNClient_relocate
+         54   35 0002E700 Java_org_apache_subversion_javahl_SVNClient_remove
+         55   36 00026AB0 Java_org_apache_subversion_javahl_SVNClient_removeFromChangelists
+         56   37 0002CA70 Java_org_apache_subversion_javahl_SVNClient_resolve
+         57   38 000299C0 Java_org_apache_subversion_javahl_SVNClient_revProperties
+         58   39 00029C40 Java_org_apache_subversion_javahl_SVNClient_revProperty
+         59   3A 0002E3E0 Java_org_apache_subversion_javahl_SVNClient_revert
+         60   3B 000256E0 Java_org_apache_subversion_javahl_SVNClient_setConfigDirectory
+         61   3C 00024010 Java_org_apache_subversion_javahl_SVNClient_setConfigEventHandler
+         62   3D 00025580 Java_org_apache_subversion_javahl_SVNClient_setPrompt__Lorg_apache_subversion_javahl_callback_AuthnCallback_2
+         63   3E 00025420 Java_org_apache_subversion_javahl_SVNClient_setPrompt__Lorg_apache_subversion_javahl_callback_UserPasswordCallback_2
+         64   3F 00029530 Java_org_apache_subversion_javahl_SVNClient_setRevProperty
+         65   40 00024670 Java_org_apache_subversion_javahl_SVNClient_setTunnelAgent
+         66   41 0002F3C0 Java_org_apache_subversion_javahl_SVNClient_status
+         67   42 00027EC0 Java_org_apache_subversion_javahl_SVNClient_streamFileContent
+         68   43 0002BC30 Java_org_apache_subversion_javahl_SVNClient_suggestMergeSources
+         69   44 000261A0 Java_org_apache_subversion_javahl_SVNClient_unlock
+         70   45 0002DE60 Java_org_apache_subversion_javahl_SVNClient_update
+         71   46 00027A10 Java_org_apache_subversion_javahl_SVNClient_upgrade
+         72   47 00024980 Java_org_apache_subversion_javahl_SVNClient_username
+         73   48 00025990 Java_org_apache_subversion_javahl_SVNClient_vacuum
+         74   49 000244C0 Java_org_apache_subversion_javahl_SVNClient_version
+         75   4A 00024410 Java_org_apache_subversion_javahl_SVNClient_versionMajor
+         76   4B 000242A0 Java_org_apache_subversion_javahl_SVNClient_versionMicro
+         77   4C 00024350 Java_org_apache_subversion_javahl_SVNClient_versionMinor
+         78   4D 00021690 Java_org_apache_subversion_javahl_SVNRepos_cancelOperation
+         79   4E 00023830 Java_org_apache_subversion_javahl_SVNRepos_create
+         80   4F 00021870 Java_org_apache_subversion_javahl_SVNRepos_ctNative
+         81   50 00023660 Java_org_apache_subversion_javahl_SVNRepos_deltify
+         82   51 00021770 Java_org_apache_subversion_javahl_SVNRepos_dispose
+         83   52 000233B0 Java_org_apache_subversion_javahl_SVNRepos_dump
+         84   53 00021970 Java_org_apache_subversion_javahl_SVNRepos_finalize
+         85   54 00022950 Java_org_apache_subversion_javahl_SVNRepos_freeze
+         86   55 00023150 Java_org_apache_subversion_javahl_SVNRepos_hotcopy
+         87   56 00023C30 Java_org_apache_subversion_javahl_SVNRepos_listDBLogs
+         88   57 00023AB0 Java_org_apache_subversion_javahl_SVNRepos_listUnusedDBLogs
+         89   58 00022E30 Java_org_apache_subversion_javahl_SVNRepos_load
+         90   59 00021FA0 Java_org_apache_subversion_javahl_SVNRepos_lslocks
+         91   5A 00022CB0 Java_org_apache_subversion_javahl_SVNRepos_lstxns
+         92   5B 00021A60 Java_org_apache_subversion_javahl_SVNRepos_pack
+         93   5C 00022A80 Java_org_apache_subversion_javahl_SVNRepos_recover
+         94   5D 00021DA0 Java_org_apache_subversion_javahl_SVNRepos_rmlocks
+         95   5E 00022750 Java_org_apache_subversion_javahl_SVNRepos_rmtxns
+         96   5F 00022430 Java_org_apache_subversion_javahl_SVNRepos_setRevProp
+         97   60 00021C30 Java_org_apache_subversion_javahl_SVNRepos_upgrade
+         98   61 00022160 Java_org_apache_subversion_javahl_SVNRepos_verify
+         99   62 000211E0 Java_org_apache_subversion_javahl_remote_CommitEditor_addAbsent
+        100   63 00021420 Java_org_apache_subversion_javahl_remote_CommitEditor_addDirectory
+        101   64 000212F0 Java_org_apache_subversion_javahl_remote_CommitEditor_addFile
+        102   65 000207A0 Java_org_apache_subversion_javahl_remote_CommitEditor_addSymlink
+        103   66 000210C0 Java_org_apache_subversion_javahl_remote_CommitEditor_alterDirectory
+        104   67 00020F90 Java_org_apache_subversion_javahl_remote_CommitEditor_alterFile
+        105   68 000206A0 Java_org_apache_subversion_javahl_remote_CommitEditor_alterSymlink
+        106   69 00020B60 Java_org_apache_subversion_javahl_remote_CommitEditor_complete
+        107   6A 00020D70 Java_org_apache_subversion_javahl_remote_CommitEditor_copy
+        108   6B 00020E90 Java_org_apache_subversion_javahl_remote_CommitEditor_delete
+        109   6C 00020970 Java_org_apache_subversion_javahl_remote_CommitEditor_finalize
+        110   6D 00020C50 Java_org_apache_subversion_javahl_remote_CommitEditor_move
+        111   6E 00021540 Java_org_apache_subversion_javahl_remote_CommitEditor_nativeCreateInstance
+        112   6F 000208A0 Java_org_apache_subversion_javahl_remote_CommitEditor_nativeDispose
+        113   70 000688B0 Java_org_apache_subversion_javahl_remote_RemoteFactory_open
+        114   71 0001E500 Java_org_apache_subversion_javahl_remote_RemoteSession_cancelOperation
+        115   72 0001EFD0 Java_org_apache_subversion_javahl_remote_RemoteSession_checkPath
+        116   73 0001E6D0 Java_org_apache_subversion_javahl_remote_RemoteSession_finalize
+        117   74 0001EA80 Java_org_apache_subversion_javahl_remote_RemoteSession_getFileRevisions
+        118   75 0001FAB0 Java_org_apache_subversion_javahl_remote_RemoteSession_getLatestRevision
+        119   76 0001EBC0 Java_org_apache_subversion_javahl_remote_RemoteSession_getLocationSegments
+        120   77 0001ED00 Java_org_apache_subversion_javahl_remote_RemoteSession_getLocations
+        121   78 0001E920 Java_org_apache_subversion_javahl_remote_RemoteSession_getLocks
+        122   79 000203B0 Java_org_apache_subversion_javahl_remote_RemoteSession_getLog
+        123   7A 00020510 Java_org_apache_subversion_javahl_remote_RemoteSession_getMergeinfo
+        124   7B 0001FFF0 Java_org_apache_subversion_javahl_remote_RemoteSession_getReposRelativePath
+        125   7C 0001FC00 Java_org_apache_subversion_javahl_remote_RemoteSession_getReposRootUrl
+        126   7D 0001FD50 Java_org_apache_subversion_javahl_remote_RemoteSession_getReposUUID
+        127   7E 0001F950 Java_org_apache_subversion_javahl_remote_RemoteSession_getRevisionByTimestamp
+        128   7F 0001F6D0 Java_org_apache_subversion_javahl_remote_RemoteSession_getRevisionProperties
+        129   80 0001F570 Java_org_apache_subversion_javahl_remote_RemoteSession_getRevisionProperty
+        130   81 00020150 Java_org_apache_subversion_javahl_remote_RemoteSession_getSessionRelativePath
+        131   82 0001FEA0 Java_org_apache_subversion_javahl_remote_RemoteSession_getSessionUrl
+        132   83 0001F830 Java_org_apache_subversion_javahl_remote_RemoteSession_nativeChangeRevisionProperty
+        133   84 0001E600 Java_org_apache_subversion_javahl_remote_RemoteSession_nativeDispose
+        134   85 0001F260 Java_org_apache_subversion_javahl_remote_RemoteSession_nativeGetDirectory
+        135   86 0001F3F0 Java_org_apache_subversion_javahl_remote_RemoteSession_nativeGetFile
+        136   87 0001E7C0 Java_org_apache_subversion_javahl_remote_RemoteSession_nativeHasCapability
+        137   88 0001F130 Java_org_apache_subversion_javahl_remote_RemoteSession_nativeStatus
+        138   89 000202B0 Java_org_apache_subversion_javahl_remote_RemoteSession_reparent
+        139   8A 0001EE70 Java_org_apache_subversion_javahl_remote_RemoteSession_stat
+        140   8B 0001DF30 Java_org_apache_subversion_javahl_remote_StateReporter_abortReport
+        141   8C 0001E2B0 Java_org_apache_subversion_javahl_remote_StateReporter_deletePath
+        142   8D 0001DE40 Java_org_apache_subversion_javahl_remote_StateReporter_finalize
+        143   8E 0001E020 Java_org_apache_subversion_javahl_remote_StateReporter_finishReport
+        144   8F 0001E170 Java_org_apache_subversion_javahl_remote_StateReporter_linkPath
+        145   90 0001DC20 Java_org_apache_subversion_javahl_remote_StateReporter_nativeCreateInstance
+        146   91 0001DD40 Java_org_apache_subversion_javahl_remote_StateReporter_nativeDispose
+        147   92 0001E3B0 Java_org_apache_subversion_javahl_remote_StateReporter_setPath
+        148   93 0004FB00 Java_org_apache_subversion_javahl_types_NativeInputStream_close
+        149   94 0004E6A0 Java_org_apache_subversion_javahl_types_NativeInputStream_finalize
+        150   95 0004F9E0 Java_org_apache_subversion_javahl_types_NativeInputStream_mark
+        151   96 0004E7A0 Java_org_apache_subversion_javahl_types_NativeInputStream_markSupported
+        152   97 0004F7F0 Java_org_apache_subversion_javahl_types_NativeInputStream_read__
+        153   98 0004F5F0 Java_org_apache_subversion_javahl_types_NativeInputStream_read___3BII
+        154   99 0004F8F0 Java_org_apache_subversion_javahl_types_NativeInputStream_reset
+        155   9A 0004F4E0 Java_org_apache_subversion_javahl_types_NativeInputStream_skip
+        156   9B 0004F3C0 Java_org_apache_subversion_javahl_types_NativeOutputStream_close
+        157   9C 0004E5A0 Java_org_apache_subversion_javahl_types_NativeOutputStream_finalize
+        158   9D 0004F2D0 Java_org_apache_subversion_javahl_types_NativeOutputStream_write__I
+        159   9E 0004F100 Java_org_apache_subversion_javahl_types_NativeOutputStream_write___3BII
+        160   9F 0001D930 Java_org_apache_subversion_javahl_types_RevisionRangeList_remove
+        161   A0 0001D7C0 Java_org_apache_subversion_javahl_types_RuntimeVersion_getMajor
+        162   A1 0001D7A0 Java_org_apache_subversion_javahl_types_RuntimeVersion_getMinor
+        163   A2 0001D7E0 Java_org_apache_subversion_javahl_types_RuntimeVersion_getNumberTag
+        164   A3 0001D780 Java_org_apache_subversion_javahl_types_RuntimeVersion_getPatch
+        165   A4 0001BDC0 Java_org_apache_subversion_javahl_types_VersionExtended_00024LinkedLibIterator_hasNext
+        166   A5 0001CF10 Java_org_apache_subversion_javahl_types_VersionExtended_00024LinkedLib_getCompiledVersion
+        167   A6 0001D060 Java_org_apache_subversion_javahl_types_VersionExtended_00024LinkedLib_getName
+        168   A7 0001CDC0 Java_org_apache_subversion_javahl_types_VersionExtended_00024LinkedLib_getRuntimeVersion
+        169   A8 0001BB10 Java_org_apache_subversion_javahl_types_VersionExtended_00024LoadedLibIterator_hasNext
+        170   A9 0001CC80 Java_org_apache_subversion_javahl_types_VersionExtended_00024LoadedLib_getName
+        171   AA 0001CB30 Java_org_apache_subversion_javahl_types_VersionExtended_00024LoadedLib_getVersion
+        172   AB 0001CA30 Java_org_apache_subversion_javahl_types_VersionExtended_dispose
+        173   AC 0001C8E0 Java_org_apache_subversion_javahl_types_VersionExtended_getBuildDate
+        174   AD 0001C640 Java_org_apache_subversion_javahl_types_VersionExtended_getBuildHost
+        175   AE 0001C790 Java_org_apache_subversion_javahl_types_VersionExtended_getBuildTime
+        176   AF 0001C4F0 Java_org_apache_subversion_javahl_types_VersionExtended_getCopyright
+        177   B0 0001C3A0 Java_org_apache_subversion_javahl_types_VersionExtended_getRuntimeHost
+        178   B1 0001C250 Java_org_apache_subversion_javahl_types_VersionExtended_getRuntimeOSName
+        179   B2 0001D680 Java_org_apache_subversion_javahl_types_Version_getMajor
+        180   B3 0001D570 Java_org_apache_subversion_javahl_types_Version_getMinor
+        181   B4 0001D200 Java_org_apache_subversion_javahl_types_Version_getNumberTag
+        182   B5 0001D460 Java_org_apache_subversion_javahl_types_Version_getPatch
+        183   B6 0001D330 Java_org_apache_subversion_javahl_types_Version_getTag
+        184   B7 0001A350 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_enumerate
+        185   B8 0001B5E0 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_get_1bool
+        186   B9 0001B390 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_get_1long
+        187   BA 0001B830 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_get_1str
+        188   BB 0001AFC0 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_get_1tri
+        189   BC 0001AC20 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_get_1yna
+        190   BD 0001A4F0 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_sections
+        191   BE 0001A8E0 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_set_1bool
+        192   BF 0001A770 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_set_1long
+        193   C0 0001AA50 Java_org_apache_subversion_javahl_util_ConfigImpl_00024Category_set_1str
+        194   C1 000189C0 Java_org_apache_subversion_javahl_util_ConfigLib_disableNativeCredentialsStore
+        195   C2 00018B50 Java_org_apache_subversion_javahl_util_ConfigLib_enableNativeCredentialsStore
+        196   C3 000188E0 Java_org_apache_subversion_javahl_util_ConfigLib_isNativeCredentialsStoreEnabled
+        197   C4 00019490 Java_org_apache_subversion_javahl_util_ConfigLib_nativeGetCredential
+        198   C5 00019160 Java_org_apache_subversion_javahl_util_ConfigLib_nativeRemoveCredential
+        199   C6 00018D40 Java_org_apache_subversion_javahl_util_ConfigLib_nativeSearchCredentials
+        200   C7 000665A0 Java_org_apache_subversion_javahl_util_DiffLib_nativeFileDiff
+        201   C8 00065540 Java_org_apache_subversion_javahl_util_DiffLib_nativeFileMerge
+        202   C9 000178E0 Java_org_apache_subversion_javahl_util_PropLib_checkNodeProp
+        203   CA 00017480 Java_org_apache_subversion_javahl_util_PropLib_parseExternals
+        204   CB 00017050 Java_org_apache_subversion_javahl_util_PropLib_resolveExternalsUrl
+        205   CC 00018200 Java_org_apache_subversion_javahl_util_PropLib_unparseExternals
+        206   CD 00016DF0 Java_org_apache_subversion_javahl_util_RequestChannel_nativeRead
+        207   CE 00016CC0 Java_org_apache_subversion_javahl_util_ResponseChannel_nativeWrite
+        208   CF 00067750 Java_org_apache_subversion_javahl_util_SubstLib_buildKeywords
+        209   D0 000680D0 Java_org_apache_subversion_javahl_util_SubstLib_translateInputStream
+        210   D1 00067E00 Java_org_apache_subversion_javahl_util_SubstLib_translateOutputStream
+        211   D2 00016B50 Java_org_apache_subversion_javahl_util_TunnelChannel_nativeClose
+
+  Summary
+
+        2000 .data
+        7000 .pdata
+       2A000 .rdata
+        1000 .reloc
+        3000 .rsrc
+       70000 .text

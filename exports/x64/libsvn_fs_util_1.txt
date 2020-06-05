@@ -1,0 +1,35 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-x64\libsvn_fs_util_1.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libsvn_fs_util-1.dll
+
+    00000000 characteristics
+    5CED1F5D time date stamp Tue May 28 13:45:33 2019
+        0.00 version
+           1 ordinal base
+          10 number of functions
+          10 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001B10 svn_fs__append_to_merged_froms
+          2    1 00001FB0 svn_fs__canonicalize_abspath
+          3    2 00001D20 svn_fs__check_fs
+          4    3 00001DF0 svn_fs__compatible_version
+          5    4 000020D0 svn_fs__is_canonical_abspath
+          6    5 00001C90 svn_fs__next_entry_name
+          7    6 00001C30 svn_fs__path_change_create_internal
+          8    7 00001BD0 svn_fs__path_change_create_internal2
+          9    8 000019F0 svn_fs__prop_lists_equal
+         10    9 00001DE0 svn_fs_util__version
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        1000 .rdata
+        1000 .reloc
+        3000 .rsrc
+        2000 .text

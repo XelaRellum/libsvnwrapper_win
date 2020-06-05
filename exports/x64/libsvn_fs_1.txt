@@ -1,0 +1,169 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-x64\libsvn_fs_1.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libsvn_fs-1.dll
+
+    00000000 characteristics
+    5CED1F7E time date stamp Tue May 28 13:46:06 2019
+        0.00 version
+           1 ordinal base
+         144 number of functions
+         144 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00007130 svn_fs__access_get_lock_tokens
+          2    1 00005EE0 svn_fs__editor_commit
+          3    2 00007060 svn_fs__editor_create
+          4    3 00006FF0 svn_fs__editor_create_for
+          5    4 00003EE0 svn_fs__get_deleted_node
+          6    5 000043C0 svn_fs__get_mergeinfo_for_path
+          7    6 000037C0 svn_fs__path_valid
+          8    7 000036A0 svn_fs_abort_txn
+          9    8 00001BE0 svn_fs_access_add_lock_token
+         10    9 00007140 svn_fs_access_add_lock_token2
+         11    A 00007170 svn_fs_access_get_username
+         12    B 00002C10 svn_fs_apply_text
+         13    C 00002C90 svn_fs_apply_textdelta
+         14    D 00001E90 svn_fs_begin_txn
+         15    E 000036D0 svn_fs_begin_txn2
+         16    F 00005590 svn_fs_berkeley_logfiles
+         17   10 00004900 svn_fs_berkeley_path
+         18   11 00005CA0 svn_fs_berkeley_recover
+         19   12 00003090 svn_fs_change_node_prop
+         20   13 00001E00 svn_fs_change_rev_prop
+         21   14 00002A70 svn_fs_change_rev_prop2
+         22   15 000047D0 svn_fs_change_txn_prop
+         23   16 000046F0 svn_fs_change_txn_props
+         24   17 00003260 svn_fs_check_path
+         25   18 00002430 svn_fs_check_related
+         26   19 000034B0 svn_fs_close_root
+         27   1A 00002FB0 svn_fs_closest_copy
+         28   1B 000036B0 svn_fs_commit_txn
+         29   1C 000023F0 svn_fs_compare_ids
+         30   1D 00003760 svn_fs_config
+         31   1E 00002B90 svn_fs_contents_changed
+         32   1F 00002BD0 svn_fs_contents_different
+         33   20 00002FE0 svn_fs_copied_from
+         34   21 00004190 svn_fs_copy
+         35   22 000022C0 svn_fs_create
+         36   23 00005BB0 svn_fs_create2
+         37   24 000071A0 svn_fs_create_access
+         38   25 00005DB0 svn_fs_create_berkeley
+         39   26 00002E80 svn_fs_delete
+         40   27 00005CC0 svn_fs_delete_berkeley
+         41   28 00005840 svn_fs_delete_fs
+         42   29 00002B20 svn_fs_deltify_revision
+         43   2A 00002EC0 svn_fs_dir_entries
+         44   2B 00002E90 svn_fs_dir_optimal_order
+         45   2C 00002DB0 svn_fs_file_checksum
+         46   2D 00002D90 svn_fs_file_contents
+         47   2E 00002E50 svn_fs_file_length
+         48   2F 00001C30 svn_fs_file_md5_checksum
+         49   30 00003720 svn_fs_freeze
+         50   31 000025D0 svn_fs_generate_lock_token
+         51   32 00007180 svn_fs_get_access
+         52   33 00002A40 svn_fs_get_file_delta_stream
+         53   34 00002530 svn_fs_get_lock
+         54   35 00001DC0 svn_fs_get_locks
+         55   36 00002490 svn_fs_get_locks2
+         56   37 000021B0 svn_fs_get_mergeinfo
+         57   38 00001CF0 svn_fs_get_mergeinfo2
+         58   39 00002F60 svn_fs_get_mergeinfo3
+         59   3A 00002A10 svn_fs_get_uuid
+         60   3B 00002460 svn_fs_history_location
+         61   3C 00001C10 svn_fs_history_prev
+         62   3D 00002470 svn_fs_history_prev2
+         63   3E 000022E0 svn_fs_hotcopy
+         64   3F 00002250 svn_fs_hotcopy2
+         65   40 00005200 svn_fs_hotcopy3
+         66   41 00005610 svn_fs_hotcopy_berkeley
+         67   42 00003B60 svn_fs_info
+         68   43 00002B30 svn_fs_info_config_files
+         69   44 00005090 svn_fs_info_dup
+         70   45 00002B50 svn_fs_info_format
+         71   46 00004A50 svn_fs_initialize
+         72   47 000031F0 svn_fs_is_dir
+         73   48 000031B0 svn_fs_is_file
+         74   49 00003480 svn_fs_is_revision_root
+         75   4A 00003490 svn_fs_is_txn_root
+         76   4B 00003630 svn_fs_list_transactions
+         77   4C 00003DC0 svn_fs_lock
+         78   4D 00002610 svn_fs_lock_many
+         79   4E 00002590 svn_fs_lock_target_create
+         80   4F 00002580 svn_fs_lock_target_set_token
+         81   50 000042B0 svn_fs_make_dir
+         82   51 00004080 svn_fs_make_file
+         83   52 00002EE0 svn_fs_merge
+         84   53 000049F0 svn_fs_new
+         85   54 00003120 svn_fs_node_created_path
+         86   55 00003140 svn_fs_node_created_rev
+         87   56 000030C0 svn_fs_node_has_props
+         88   57 00001DA0 svn_fs_node_history
+         89   58 00003230 svn_fs_node_history2
+         90   59 000031A0 svn_fs_node_id
+         91   5A 00003130 svn_fs_node_origin_rev
+         92   5B 000030F0 svn_fs_node_prop
+         93   5C 000030E0 svn_fs_node_proplist
+         94   5D 00003150 svn_fs_node_relation
+         95   5E 000022A0 svn_fs_open
+         96   5F 00005AC0 svn_fs_open2
+         97   60 00005D20 svn_fs_open_berkeley
+         98   61 00003640 svn_fs_open_txn
+         99   62 00005740 svn_fs_pack
+        100   63 00005190 svn_fs_parse_id
+        101   64 00003780 svn_fs_path
+        102   65 000023E0 svn_fs_path_change2_create
+        103   66 000023D0 svn_fs_path_change3_create
+        104   67 00002360 svn_fs_path_change3_dup
+        105   68 00003410 svn_fs_path_change_get
+        106   69 00001EB0 svn_fs_paths_changed
+        107   6A 00004490 svn_fs_paths_changed2
+        108   6B 00003270 svn_fs_paths_changed3
+        109   6C 00004C20 svn_fs_print_modules
+        110   6D 00003010 svn_fs_props_changed
+        111   6E 00003050 svn_fs_props_different
+        112   6F 00003690 svn_fs_purge_txn
+        113   70 00005650 svn_fs_recover
+        114   71 00002B10 svn_fs_refresh_revision_props
+        115   72 00002E70 svn_fs_revision_link
+        116   73 00001E60 svn_fs_revision_prop
+        117   74 00002AD0 svn_fs_revision_prop2
+        118   75 00001E30 svn_fs_revision_proplist
+        119   76 00002AA0 svn_fs_revision_proplist2
+        120   77 00003500 svn_fs_revision_root
+        121   78 00003420 svn_fs_revision_root_revision
+        122   79 000034A0 svn_fs_root_fs
+        123   7A 00007190 svn_fs_set_access
+        124   7B 00003700 svn_fs_set_berkeley_errcall
+        125   7C 00002970 svn_fs_set_uuid
+        126   7D 000037B0 svn_fs_set_warning_func
+        127   7E 00002D50 svn_fs_try_process_file_contents
+        128   7F 00003650 svn_fs_txn_base_revision
+        129   80 00003660 svn_fs_txn_name
+        130   81 00004880 svn_fs_txn_prop
+        131   82 00003550 svn_fs_txn_proplist
+        132   83 000034C0 svn_fs_txn_root
+        133   84 00003440 svn_fs_txn_root_base_revision
+        134   85 00003460 svn_fs_txn_root_name
+        135   86 00003A10 svn_fs_type
+        136   87 00003CE0 svn_fs_unlock
+        137   88 00002540 svn_fs_unlock_many
+        138   89 00002450 svn_fs_unparse_id
+        139   8A 00002320 svn_fs_upgrade
+        140   8B 000059C0 svn_fs_upgrade2
+        141   8C 000058A0 svn_fs_verify
+        142   8D 00003740 svn_fs_verify_root
+        143   8E 00002350 svn_fs_version
+        144   8F 00002B80 svn_fs_youngest_rev
+
+  Summary
+
+        2000 .data
+        1000 .pdata
+        4000 .rdata
+        1000 .reloc
+        3000 .rsrc
+        7000 .text

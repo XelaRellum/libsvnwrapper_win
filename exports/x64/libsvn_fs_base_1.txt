@@ -1,0 +1,26 @@
+
+Dump of file bin\Slik-Subversion-1.12.0-x64\libsvn_fs_base_1.dll
+
+File Type: DLL
+
+  Section contains the following exports for SlikSvn-libsvn_fs_base-1.dll
+
+    00000000 characteristics
+    5CED1F65 time date stamp Tue May 28 13:45:41 2019
+        0.00 version
+           1 ordinal base
+           1 number of functions
+           1 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00022F00 svn_fs_base__init
+
+  Summary
+
+        2000 .data
+        3000 .pdata
+        A000 .rdata
+        1000 .reloc
+        3000 .rsrc
+       27000 .text
