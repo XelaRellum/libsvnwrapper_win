@@ -23,6 +23,21 @@ def build_expat(arch):
 
     cmake.build(build_dir, "Release")
     cmake.install(build_dir, "Release")
+
+
+def build_apr_util(arch):
+    print("Build APR-UTIL:")
+    build_dir = "_build_apr-util-1.6.1_%s" % arch
+    bin_dir = "bin/%s" % arch
+    cmake.configure(
+        source_dir="apr-util-1.6.1", bin_dir=bin_dir, build_dir=build_dir, arch=arch,
+    )
+
+    cmake.build(build_dir, "Release")
+    cmake.install(build_dir, "Release")
+
+
 if __name__ == "__main__":
     build_apr("win32")
     build_expat("win32")
+    build_apr_util("win32")
