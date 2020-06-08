@@ -29,3 +29,4 @@ if __name__ == "__main__":
     build_library("apr-1.7.0", "win32")
     build_library("expat-2.2.9", "win32")
     build_library("apr-util-1.6.1", "win32")
+    build_library("zlib-1.2.11", "win32")
