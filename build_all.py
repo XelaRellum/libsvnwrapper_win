@@ -1,4 +1,6 @@
 import cmake
+from glob import glob
+import re
 
 
 def build_library(source_dir, arch):
@@ -13,20 +15,19 @@ def build_library(source_dir, arch):
     cmake.install(build_dir, "Release")
 
 
-def build_apr_util(arch):
-    print("Build APR-UTIL:")
-    build_dir = "_build_apr-util-1.6.1_%s" % arch
-    bin_dir = "bin/%s" % arch
-    cmake.configure(
-        source_dir="apr-util-1.6.1", bin_dir=bin_dir, build_dir=build_dir, arch=arch,
-    )
+def detect_library(prefix):
+    dirs = glob(prefix + "-*")
+    r = re.compile(r"-[0-9.]+$")
+    for dir in dirs:
+        if r.search(dir):
+            return dir
 
-    cmake.build(build_dir, "Release")
-    cmake.install(build_dir, "Release")
+    assert False, "Library with prefix '%s' not found!" % prefix
 
 
 if __name__ == "__main__":
-    build_library("apr-1.7.0", "win32")
-    build_library("expat-2.2.9", "win32")
-    build_library("apr-util-1.6.1", "win32")
-    build_library("zlib-1.2.11", "win32")
+    for platform in ["win32"]:
+        for library_prefix in ["apr", "expat", "apr-util", "zlib"]:
+            library = detect_library(library_prefix)
+
+            build_library(library, platform)
